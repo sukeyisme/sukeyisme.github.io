@@ -10,16 +10,16 @@
 
     
     <entry>
-      <title><![CDATA[统一开发环境]]></title>
-      <url>%2F2016%2F03%2F03%2F%E7%BB%9F%E4%B8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%2F</url>
-      <content type="text"><![CDATA[Table of Contents 1. &#x642D;&#x5EFA; ftp &#x670D;&#x52A1;&#x5668; &#x5C06; vagrant box &#x5B58;&#x653E;&#x5728;&#x4E0A;&#x9762; 1 &#x642D;&#x5EFA; ftp &#x670D;&#x52A1;&#x5668; &#x5C06; vagrant box &#x5B58;&#x653E;&#x5728;&#x4E0A;&#x9762;]]></content>
+      <title><![CDATA[生产环境搭建]]></title>
+      <url>%2F2016%2F03%2F03%2F%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%2F</url>
+      <content type="text"><![CDATA[Table of Contents 1. linux &#x5B89;&#x88C5;(&#x9009;&#x62E9; centos &#x7406;&#x7531;&#xFF1A;&#x6BD4;&#x8F83;&#x7A33;&#x5B9A;) 1 linux &#x5B89;&#x88C5;(&#x9009;&#x62E9; centos &#x7406;&#x7531;&#xFF1A;&#x6BD4;&#x8F83;&#x7A33;&#x5B9A;)]]></content>
     </entry>
 
     
     <entry>
-      <title><![CDATA[生产环境搭建]]></title>
-      <url>%2F2016%2F03%2F03%2F%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%2F</url>
-      <content type="text"><![CDATA[Table of Contents 1. linux &#x5B89;&#x88C5;(&#x9009;&#x62E9; centos &#x7406;&#x7531;&#xFF1A;&#x6BD4;&#x8F83;&#x7A33;&#x5B9A;) 1 linux &#x5B89;&#x88C5;(&#x9009;&#x62E9; centos &#x7406;&#x7531;&#xFF1A;&#x6BD4;&#x8F83;&#x7A33;&#x5B9A;)]]></content>
+      <title><![CDATA[统一开发环境]]></title>
+      <url>%2F2016%2F03%2F03%2F%E7%BB%9F%E4%B8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%2F</url>
+      <content type="text"><![CDATA[Table of Contents 1. &#x642D;&#x5EFA; ftp &#x670D;&#x52A1;&#x5668; &#x5C06; vagrant box &#x5B58;&#x653E;&#x5728;&#x4E0A;&#x9762; 1 &#x642D;&#x5EFA; ftp &#x670D;&#x52A1;&#x5668; &#x5C06; vagrant box &#x5B58;&#x653E;&#x5728;&#x4E0A;&#x9762;]]></content>
     </entry>
 
     
