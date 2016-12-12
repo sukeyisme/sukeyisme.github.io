@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+    
+    <entry>
+      <title><![CDATA[mac 下MEOW出现too many open files]]></title>
+      <url>%2F2016%2F12%2F09%2Fmac%20%E4%B8%8BMEOW%E5%87%BA%E7%8E%B0too%20many%20open%20files%2F</url>
+      <content type="text"><![CDATA[Table of Contents 1. &#x7B2C;&#x4E00;&#x5C42; 1.1. &#x7B2C;&#x4E8C;&#x5C42; 1.1.1. &#x7B2C;&#x4E09;&#x5C42; 2. &#x4E8C;&#x6B21;&#x4E00;&#x5C42; 2.1. nice &#x8BBE;&#x7F6E;&#x4E00;&#x4E0B;&#x7CFB;&#x7EDF;&#x6253;&#x5F00;&#x6587;&#x4EF6;&#x6570;&#x9650;&#x5236; 1 &#x7B2C;&#x4E00;&#x5C42; 1.1 &#x7B2C;&#x4E8C;&#x5C42; 1.1.1 &#x7B2C;&#x4E09;&#x5C42; test 2 &#x4E8C;&#x6B21;&#x4E00;&#x5C42; 2.1 nice student student student #include &lt;iostream&gt;int main(){ std::cout&lt;&lt;&quot;hello world! adfsdfsdf&quot;&lt;&lt;std::endl; std::cout&lt;&lt;&quot;ni ma bi dadfsdf&quot;&lt;&lt;std::endl;}]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[统一开发环境]]></title>
+      <url>%2F2016%2F03%2F03%2F%E7%BB%9F%E4%B8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%2F</url>
+      <content type="text"><![CDATA[Table of Contents 1. &#x642D;&#x5EFA; ftp &#x670D;&#x52A1;&#x5668; &#x5C06; vagrant box &#x5B58;&#x653E;&#x5728;&#x4E0A;&#x9762; 1 &#x642D;&#x5EFA; ftp &#x670D;&#x52A1;&#x5668; &#x5C06; vagrant box &#x5B58;&#x653E;&#x5728;&#x4E0A;&#x9762;]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[生产环境搭建]]></title>
+      <url>%2F2016%2F03%2F03%2F%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%2F</url>
+      <content type="text"><![CDATA[Table of Contents 1. linux &#x5B89;&#x88C5;(&#x9009;&#x62E9; centos &#x7406;&#x7531;&#xFF1A;&#x6BD4;&#x8F83;&#x7A33;&#x5B9A;) 1 linux &#x5B89;&#x88C5;(&#x9009;&#x62E9; centos &#x7406;&#x7531;&#xFF1A;&#x6BD4;&#x8F83;&#x7A33;&#x5B9A;)]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[mac 下 linux c++ 环境搭建]]></title>
+      <url>%2F2016%2F02%2F26%2Fmac%E4%B8%8Blinux%20c%2B%2B%20%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%2F</url>
+      <content type="text"><![CDATA[Table of Contents 1. &#x5DE5;&#x5177; 2. &#x601D;&#x8DEF; 2.1. &#x7F16;&#x8F91;&#x5DE5;&#x4F5C;&#x90FD;&#x6709; emacs &#x5B8C;&#x6210; 2.2. &#x7F16;&#x8BD1;&#x7531; vagrant &#x914D;&#x7F6E;&#x7684; linux &#x865A;&#x62DF;&#x673A;&#x5B8C;&#x6210; 2.3. &#x6709;&#x5FC5;&#x8981;&#x8C03;&#x7528; linux &#x754C;&#x9762;&#x7A0B;&#x5E8F;&#x7684;&#x8BDD;&#x53EF;&#x4EE5;&#x4F7F;&#x7528; x11-forward &#x6765;&#x5B9E;&#x73B0; linux &#x7A97;&#x53E3;&#x672C;&#x5730;&#x663E;&#x793A; 3. &#x6D41;&#x7A0B; 3.1. vagrant &#x7684;&#x9879;&#x76EE;&#x521B;&#x5EFA;&#x53C2;&#x8003; Documentation - Vagrant by HashiCorp 4. &#x6CE8;&#x610F; 4.1. vagrant-tramp &#x6709;&#x4E2A; bug &#x4FEE;&#x590D;&#x4E86;&#x4F46;&#x662F;&#x6CA1;&#x6709;&#x4E0A;&#x4F20; melpa &#x6240;&#x4EE5;&#x672C;&#x5730;&#x7248;&#x672C;&#x662F;&#x4E0D;&#x5BF9;&#x7684; &#x6240;&#x6709;&#x8981;&#x624B;&#x52A8;&#x4FEE;&#x6539; &#x53C2;&#x8003;Force rebuild of $0 &#xB7; tylerharper/vagrant-tramp@49ca0d2 4.2. &#x65F6;&#x523B; sudo pacman -Syu &#x66F4;&#x65B0;&#x8F6F;&#x4EF6;&#x53CA;&#x6E90; 1 &#x5DE5;&#x5177; arch linux:&#x56E0;&#x4E3A;&#x6EDA;&#x52A8;&#x5F0F;&#x5347;&#x7EA7;&#x65B9;&#x5F0F; &#x53EF;&#x4EE5;&#x4FDD;&#x6301;&#x6700;&#x65B0;&#x8F6F;&#x4EF6; &#x7279;&#x522B;&#x9002;&#x5408;&#x5F00;&#x53D1;&#x73AF;&#x5883; emacs(spacemacs)&#x3001;vagrant 2 &#x601D;&#x8DEF; 2.1 &#x7F16;&#x8F91;&#x5DE5;&#x4F5C;&#x90FD;&#x6709; emacs &#x5B8C;&#x6210; 2.2 &#x7F16;&#x8BD1;&#x7531; vagrant &#x914D;&#x7F6E;&#x7684; linux &#x865A;&#x62DF;&#x673A;&#x5B8C;&#x6210; 2.3 &#x6709;&#x5FC5;&#x8981;&#x8C03;&#x7528; linux &#x754C;&#x9762;&#x7A0B;&#x5E8F;&#x7684;&#x8BDD;&#x53EF;&#x4EE5;&#x4F7F;&#x7528; x11-forward &#x6765;&#x5B9E;&#x73B0; linux &#x7A97;&#x53E3;&#x672C;&#x5730;&#x663E;&#x793A; 3 &#x6D41;&#x7A0B; 3.1 vagrant &#x7684;&#x9879;&#x76EE;&#x521B;&#x5EFA;&#x53C2;&#x8003; Documentation - Vagrant by HashiCorp 4 &#x6CE8;&#x610F; 4.1 vagrant-tramp &#x6709;&#x4E2A; bug &#x4FEE;&#x590D;&#x4E86;&#x4F46;&#x662F;&#x6CA1;&#x6709;&#x4E0A;&#x4F20; melpa &#x6240;&#x4EE5;&#x672C;&#x5730;&#x7248;&#x672C;&#x662F;&#x4E0D;&#x5BF9;&#x7684; &#x6240;&#x6709;&#x8981;&#x624B;&#x52A8;&#x4FEE;&#x6539; &#x53C2;&#x8003;Force rebuild of $0 &#xB7; tylerharper/vagrant-tramp@49ca0d2 4.2 &#x65F6;&#x523B; sudo pacman -Syu &#x66F4;&#x65B0;&#x8F6F;&#x4EF6;&#x53CA;&#x6E90;]]></content>
+    </entry>
+
+    
+  
+  
+</search>
