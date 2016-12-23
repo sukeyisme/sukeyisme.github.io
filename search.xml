@@ -3,16 +3,16 @@
   
     
     <entry>
-      <title><![CDATA[mac 下MEOW出现too many open files]]></title>
+      <title><![CDATA[osx下 emacs gist 报错]]></title>
       <url>%2F2016%2F12%2F09%2Fmac%20%E4%B8%8BMEOW%E5%87%BA%E7%8E%B0too%20many%20open%20files%2F</url>
-      <content type="text"><![CDATA[&#x8BBE;&#x7F6E;&#x4E00;&#x4E0B;&#x7CFB;&#x7EDF;&#x6253;&#x5F00;&#x6587;&#x4EF6;&#x6570;&#x9650;&#x5236; https://gist.github.com/sukeyisme/fbee6464376112e3e9228a93e5a5e00e &#x8DEF;&#x5F84;: /Library/LaunchDaemons &#x6587;&#x4EF6;&#x540D;: limit.maxfiles.plist]]></content>
+      <content type="text"><![CDATA[brew &#x5B89;&#x88C5;emacs-plus &#x53EF;&#x4EE5;&#x89E3;&#x51B3; emacs-mac&#x662F;&#x6709;&#x95EE;&#x9898;&#x7684;]]></content>
     </entry>
 
     
     <entry>
-      <title><![CDATA[template-markdown]]></title>
-      <url>%2F2016%2F12%2F06%2Ftemplate-markdown%2F</url>
-      <content type="text"><![CDATA[My MarkDown dddddddd]]></content>
+      <title><![CDATA[mac 下MEOW出现too many open files]]></title>
+      <url>%2F2016%2F12%2F09%2Fmac%20%E4%B8%8BMEOW%E5%87%BA%E7%8E%B0too%20many%20open%20files-copy%2F</url>
+      <content type="text"><![CDATA[&#x8BBE;&#x7F6E;&#x4E00;&#x4E0B;&#x7CFB;&#x7EDF;&#x6253;&#x5F00;&#x6587;&#x4EF6;&#x6570;&#x9650;&#x5236; https://gist.github.com/sukeyisme/fbee6464376112e3e9228a93e5a5e00e &#x8DEF;&#x5F84;: /Library/LaunchDaemons &#x6587;&#x4EF6;&#x540D;: limit.maxfiles.plist]]></content>
     </entry>
 
     
