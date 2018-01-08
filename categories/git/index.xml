@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on X Blog</title>
+    <link>https://example.com/categories/git/</link>
+    <description>Recent content in Git on X Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-hans</language>
+    <copyright>© 2018 XBlog powered by Hugo</copyright>
+    <lastBuildDate>Mon, 08 Jan 2018 10:39:12 +0800</lastBuildDate>
+    
+	<atom:link href="https://example.com/categories/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Git自动转换换行符问题</title>
+      <link>https://example.com/post/git%E8%87%AA%E5%8A%A8%E8%BD%AC%E6%8D%A2%E6%8D%A2%E8%A1%8C%E7%AC%A6%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Mon, 08 Jan 2018 10:39:12 +0800</pubDate>
+      
+      <guid>https://example.com/post/git%E8%87%AA%E5%8A%A8%E8%BD%AC%E6%8D%A2%E6%8D%A2%E8%A1%8C%E7%AC%A6%E9%97%AE%E9%A2%98/</guid>
+      <description>autocrlf = true (默认) 提交的时候windows下会自动把dos换行符转回unix换行符 会导致windows下去打开mac上共享文件的时候会得到uni</description>
+    </item>
+    
+  </channel>
+</rss>

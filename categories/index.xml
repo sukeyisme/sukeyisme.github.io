@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on X Blog</title>
+    <link>https://example.com/categories/</link>
+    <description>Recent content in Categories on X Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-hans</language>
+    <copyright>© 2018 XBlog powered by Hugo</copyright>
+    
+	<atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Git</title>
+      <link>https://example.com/categories/git/</link>
+      <pubDate>Mon, 08 Jan 2018 10:39:12 +0800</pubDate>
+      
+      <guid>https://example.com/categories/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>工具</title>
+      <link>https://example.com/categories/%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Mon, 08 Jan 2018 10:41:34 +0800</pubDate>
+      
+      <guid>https://example.com/categories/%E5%B7%A5%E5%85%B7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>系统</title>
+      <link>https://example.com/categories/%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Mon, 08 Jan 2018 10:35:11 +0800</pubDate>
+      
+      <guid>https://example.com/categories/%E7%B3%BB%E7%BB%9F/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
