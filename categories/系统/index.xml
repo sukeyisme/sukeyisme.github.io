@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>系统 on X Blog</title>
-    <link>https://example.com/categories/%E7%B3%BB%E7%BB%9F/</link>
+    <link>https://sukeyisme.github.io/categories/%E7%B3%BB%E7%BB%9F/</link>
     <description>Recent content in 系统 on X Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-hans</language>
     <copyright>© 2018 XBlog powered by Hugo</copyright>
     <lastBuildDate>Mon, 08 Jan 2018 10:35:11 +0800</lastBuildDate>
     
-	<atom:link href="https://example.com/categories/%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sukeyisme.github.io/categories/%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>mac 下MEOW出现too many open files</title>
-      <link>https://example.com/post/meow%E4%BD%BF%E7%94%A8/</link>
+      <link>https://sukeyisme.github.io/post/meow%E4%BD%BF%E7%94%A8/</link>
       <pubDate>Mon, 08 Jan 2018 10:35:11 +0800</pubDate>
       
-      <guid>https://example.com/post/meow%E4%BD%BF%E7%94%A8/</guid>
+      <guid>https://sukeyisme.github.io/post/meow%E4%BD%BF%E7%94%A8/</guid>
       <description>设置一下系统打开文件数限制 https://gist.github.com/sukeyisme/fbee6464376112e3e9228a93e5a5e00e 路径: /Library/LaunchDaemons 文件名: limit.maxfiles.plist</description>
     </item>
     
