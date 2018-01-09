@@ -6,6 +6,8 @@
     <description>Recent content in 系统 on X Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-hans</language>
+    <managingEditor>hodge.shen@gmail.com (Hodge Shen)</managingEditor>
+    <webMaster>hodge.shen@gmail.com (Hodge Shen)</webMaster>
     <copyright>© 2018 XBlog powered by Hugo</copyright>
     <lastBuildDate>Mon, 08 Jan 2018 10:35:11 +0800</lastBuildDate>
     
@@ -16,7 +18,7 @@
       <title>mac 下MEOW出现too many open files</title>
       <link>https://sukeyisme.github.io/post/meow%E4%BD%BF%E7%94%A8/</link>
       <pubDate>Mon, 08 Jan 2018 10:35:11 +0800</pubDate>
-      
+      <author>hodge.shen@gmail.com (Hodge Shen)</author>
       <guid>https://sukeyisme.github.io/post/meow%E4%BD%BF%E7%94%A8/</guid>
       <description>设置一下系统打开文件数限制 https://gist.github.com/sukeyisme/fbee6464376112e3e9228a93e5a5e00e 路径: /Library/LaunchDaemons 文件名: limit.maxfiles.plist 测试下</description>
     </item>

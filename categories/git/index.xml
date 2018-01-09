@@ -6,6 +6,8 @@
     <description>Recent content in Git on X Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-hans</language>
+    <managingEditor>hodge.shen@gmail.com (Hodge Shen)</managingEditor>
+    <webMaster>hodge.shen@gmail.com (Hodge Shen)</webMaster>
     <copyright>© 2018 XBlog powered by Hugo</copyright>
     <lastBuildDate>Mon, 08 Jan 2018 10:39:12 +0800</lastBuildDate>
     
@@ -16,7 +18,7 @@
       <title>Git自动转换换行符问题</title>
       <link>https://sukeyisme.github.io/post/git%E8%87%AA%E5%8A%A8%E8%BD%AC%E6%8D%A2%E6%8D%A2%E8%A1%8C%E7%AC%A6%E9%97%AE%E9%A2%98/</link>
       <pubDate>Mon, 08 Jan 2018 10:39:12 +0800</pubDate>
-      
+      <author>hodge.shen@gmail.com (Hodge Shen)</author>
       <guid>https://sukeyisme.github.io/post/git%E8%87%AA%E5%8A%A8%E8%BD%AC%E6%8D%A2%E6%8D%A2%E8%A1%8C%E7%AC%A6%E9%97%AE%E9%A2%98/</guid>
       <description>autocrlf = true (默认) 提交的时候windows下会自动把dos换行符转回unix换行符 会导致windows下去打开mac上共享文件的时候会得到uni</description>
     </item>

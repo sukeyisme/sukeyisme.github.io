@@ -6,6 +6,8 @@
     <description>Recent content in Tags on X Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-hans</language>
+    <managingEditor>hodge.shen@gmail.com (Hodge Shen)</managingEditor>
+    <webMaster>hodge.shen@gmail.com (Hodge Shen)</webMaster>
     <copyright>© 2018 XBlog powered by Hugo</copyright>
     
 	<atom:link href="https://sukeyisme.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -15,7 +17,7 @@
       <title>Vagrant</title>
       <link>https://sukeyisme.github.io/tags/vagrant/</link>
       <pubDate>Mon, 08 Jan 2018 10:41:34 +0800</pubDate>
-      
+      <author>hodge.shen@gmail.com (Hodge Shen)</author>
       <guid>https://sukeyisme.github.io/tags/vagrant/</guid>
       <description></description>
     </item>
@@ -24,7 +26,7 @@
       <title>科学上网</title>
       <link>https://sukeyisme.github.io/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</link>
       <pubDate>Mon, 08 Jan 2018 10:35:11 +0800</pubDate>
-      
+      <author>hodge.shen@gmail.com (Hodge Shen)</author>
       <guid>https://sukeyisme.github.io/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</guid>
       <description></description>
     </item>
@@ -33,7 +35,7 @@
       <title>问题</title>
       <link>https://sukeyisme.github.io/tags/%E9%97%AE%E9%A2%98/</link>
       <pubDate>Mon, 08 Jan 2018 10:39:12 +0800</pubDate>
-      
+      <author>hodge.shen@gmail.com (Hodge Shen)</author>
       <guid>https://sukeyisme.github.io/tags/%E9%97%AE%E9%A2%98/</guid>
       <description></description>
     </item>
