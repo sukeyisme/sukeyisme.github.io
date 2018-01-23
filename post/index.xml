@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on X Blog</title>
+    <title>Posts on hello</title>
     <link>https://sukeyisme.github.io/post/</link>
-    <description>Recent content in Posts on X Blog</description>
+    <description>Recent content in Posts on hello</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-hans</language>
     <managingEditor>hodge.shen@gmail.com (Hodge Shen)</managingEditor>
