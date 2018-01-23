@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://sukeyisme.github.io/post/mac%E4%B8%8Blinux-c&#43;&#43;%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</loc>
+    <loc>https://sukeyisme.github.io/post/%E7%BB%9F%E4%B8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B9%8Bvbox%E5%AE%89%E8%A3%85archlinux/</loc>
     <lastmod>2018-01-08T10:41:34+08:00</lastmod>
   </url>
   
@@ -15,6 +15,12 @@
   <url>
     <loc>https://sukeyisme.github.io/post/meow%E4%BD%BF%E7%94%A8/</loc>
     <lastmod>2018-01-08T10:35:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sukeyisme.github.io/tags/archlinux/</loc>
+    <lastmod>2018-01-08T10:41:34+08:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -36,11 +42,12 @@
   
   <url>
     <loc>https://sukeyisme.github.io/tags/</loc>
+    <lastmod>2018-01-08T10:41:34+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sukeyisme.github.io/tags/vagrant/</loc>
+    <loc>https://sukeyisme.github.io/tags/virtualbox/</loc>
     <lastmod>2018-01-08T10:41:34+08:00</lastmod>
     <priority>0</priority>
   </url>

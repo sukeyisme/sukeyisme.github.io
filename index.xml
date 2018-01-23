@@ -15,12 +15,12 @@
     
     
     <item>
-      <title>Mac下linux C&#43;&#43;环境搭建</title>
-      <link>https://sukeyisme.github.io/post/mac%E4%B8%8Blinux-c&#43;&#43;%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</link>
+      <title>统一开发环境之virtualbox安装archlinux</title>
+      <link>https://sukeyisme.github.io/post/%E7%BB%9F%E4%B8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B9%8Bvbox%E5%AE%89%E8%A3%85archlinux/</link>
       <pubDate>Mon, 08 Jan 2018 10:41:34 +0800</pubDate>
       <author>hodge.shen@gmail.com (Hodge Shen)</author>
-      <guid>https://sukeyisme.github.io/post/mac%E4%B8%8Blinux-c&#43;&#43;%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</guid>
-      <description>工具 arch linux:因为滚动式升级方式 可以保持最新软件 特别适合开发环境 emacs(spacemacs)、vagrant 思路 编辑工作都有 emacs 完成 编</description>
+      <guid>https://sukeyisme.github.io/post/%E7%BB%9F%E4%B8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B9%8Bvbox%E5%AE%89%E8%A3%85archlinux/</guid>
+      <description>缘由 每次换开发机，最痛苦的就是重新配置开发环境，最要命的是每次配环境都没有记录。这次狠下心，决定记录下过程。为以后配置环境做参考。为开发配置</description>
     </item>
     
     <item>
