@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://sukeyisme.github.io/post/%E7%BB%9F%E4%B8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B9%8Bvagrant/</loc>
+    <lastmod>2018-01-24T13:01:04+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://sukeyisme.github.io/post/%E7%BB%9F%E4%B8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B9%8Bvbox%E5%AE%89%E8%A3%85archlinux/</loc>
     <lastmod>2018-01-08T10:41:34+08:00</lastmod>
   </url>
@@ -36,13 +41,19 @@
   
   <url>
     <loc>https://sukeyisme.github.io/post/</loc>
-    <lastmod>2018-01-08T10:41:34+08:00</lastmod>
+    <lastmod>2018-01-24T13:01:04+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://sukeyisme.github.io/tags/</loc>
     <lastmod>2018-01-08T10:41:34+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sukeyisme.github.io/tags/vagrant/</loc>
+    <lastmod>2018-01-24T13:01:04+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -54,13 +65,13 @@
   
   <url>
     <loc>https://sukeyisme.github.io/</loc>
-    <lastmod>2018-01-08T10:41:34+08:00</lastmod>
+    <lastmod>2018-01-24T13:01:04+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://sukeyisme.github.io/categories/%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2018-01-08T10:41:34+08:00</lastmod>
+    <lastmod>2018-01-24T13:01:04+08:00</lastmod>
     <priority>0</priority>
   </url>
   

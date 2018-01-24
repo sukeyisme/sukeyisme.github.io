@@ -189,7 +189,7 @@
 
 <h1 id="虚拟机创建过程">虚拟机创建过程</h1>
 
-<h2 id="虚拟硬盘文件类型选择vmdk">虚拟硬盘文件类型选择VMDK</h2>
+<p>虚拟硬盘文件类型选择VMDK</p>
 
 <h1 id="安装arch">安装arch</h1>
 
@@ -236,12 +236,14 @@
     - ctrl+x (exit)
     - y (confirm write)
 
-    # 因为需要需要图形界面所以安装virtualbox-guest-utils 如果不需要的话安装virtualbox-guest
+    #使用lts版本内核
+    #pacman -R linux
+    #pacman -S linux-lts linux-lts-headers
+
+    # 因为需要需要图形界面所以安装virtualbox-guest-utils 如果不需要的话安装virtualbox-guest 安装的时候选择virtualbox-guest-dkms
     # pacman -Sy gptfdisk syslinux xz sudo networkmanager openssh ntp virtualbox-guest-utils
     - y (confirm)
 
-    #使用lts版本内核
-    #pacman -R linux
 
     # nano /etc/mkinitcpio.conf
     - change:
@@ -337,6 +339,10 @@
               <a href="https://sukeyisme.github.io/post/git%E8%87%AA%E5%8A%A8%E8%BD%AC%E6%8D%A2%E6%8D%A2%E8%A1%8C%E7%AC%A6%E9%97%AE%E9%A2%98/" data-toggle="tooltip" data-placement="top" title="Git自动转换换行符问题">&larr; Previous Post</a>
             </li>
           
+          
+            <li class="next">
+              <a href="https://sukeyisme.github.io/post/%E7%BB%9F%E4%B8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B9%8Bvagrant/" data-toggle="tooltip" data-placement="top" title="统一开发环境之vagrant">Next Post &rarr;</a>
+            </li>
           
         </ul>
       

@@ -9,10 +9,19 @@
     <managingEditor>hodge.shen@gmail.com (Hodge Shen)</managingEditor>
     <webMaster>hodge.shen@gmail.com (Hodge Shen)</webMaster>
     <copyright>© 2018 XBlog powered by Hugo</copyright>
-    <lastBuildDate>Mon, 08 Jan 2018 10:41:34 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jan 2018 13:01:04 +0800</lastBuildDate>
     
 	<atom:link href="https://sukeyisme.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>统一开发环境之vagrant</title>
+      <link>https://sukeyisme.github.io/post/%E7%BB%9F%E4%B8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B9%8Bvagrant/</link>
+      <pubDate>Wed, 24 Jan 2018 13:01:04 +0800</pubDate>
+      <author>hodge.shen@gmail.com (Hodge Shen)</author>
+      <guid>https://sukeyisme.github.io/post/%E7%BB%9F%E4%B8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B9%8Bvagrant/</guid>
+      <description>为什么选择vagrant 制作base box 之前用vagrant封装过开发环境到一半，去了docker阵营，docker更轻量，启动速度更快，就是</description>
+    </item>
     
     <item>
       <title>统一开发环境之virtualbox安装archlinux</title>

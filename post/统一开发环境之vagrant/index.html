@@ -5,21 +5,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>工具</title>
-  <meta property="og:title" content="工具" />
-  <meta name="twitter:title" content="工具" />
+  <title>统一开发环境之vagrant</title>
+  <meta property="og:title" content="统一开发环境之vagrant" />
+  <meta name="twitter:title" content="统一开发环境之vagrant" />
+  <meta name="description" content="为什么选择vagrant 制作base box 之前用vagrant封装过开发环境到一半，去了docker阵营，docker更轻量，启动速度更快，就是">
+  <meta property="og:description" content="为什么选择vagrant 制作base box 之前用vagrant封装过开发环境到一半，去了docker阵营，docker更轻量，启动速度更快，就是">
+  <meta name="twitter:description" content="为什么选择vagrant 制作base box 之前用vagrant封装过开发环境到一半，去了docker阵营，docker更轻量，启动速度更快，就是">
   <meta name="author" content="Hodge Shen"/>
   <link href='https://sukeyisme.github.io/img/favicon.ico' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="https://sukeyisme.github.io/img/avatar-icon.png" />
   <meta name="twitter:image" content="https://sukeyisme.github.io/img/avatar-icon.png" />
   <meta name="twitter:card" content="summary" />
-  <meta property="og:url" content="https://sukeyisme.github.io/categories/%E5%B7%A5%E5%85%B7/" />
+  <meta property="og:url" content="https://sukeyisme.github.io/post/%E7%BB%9F%E4%B8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B9%8Bvagrant/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="X Blog" />
 
   <meta name="generator" content="Hugo 0.32.2" />
-  <link rel="canonical" href="https://sukeyisme.github.io/categories/%E5%B7%A5%E5%85%B7/" />
-  <link rel="alternate" href="https://sukeyisme.github.io/categories/%E5%B7%A5%E5%85%B7/index.xml" type="application/rss+xml" title="X Blog">
+  <link rel="canonical" href="https://sukeyisme.github.io/post/%E7%BB%9F%E4%B8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B9%8Bvagrant/" />
+  <link rel="alternate" href="https://sukeyisme.github.io/index.xml" type="application/rss+xml" title="X Blog">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -126,14 +129,37 @@
 
 
     
+  
+  
+  
+
+
+
+
+  
+
   <header class="header-section ">
+    
     <div class="intro-header no-img">
+      
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="page-heading">
-              <h1>#工具</h1>
-              <hr class="small">
+            <div class="post-heading">
+              <h1>统一开发环境之vagrant</h1>
+                
+                
+                  <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on January 24, 2018
+  
+  
+  
+</span>
+
+
+                
             </div>
           </div>
         </div>
@@ -141,74 +167,51 @@
     </div>
   </header>
 
+
     
-  <div class="container" role="main">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        
-        <div class="posts-list">
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <h1 id="为什么选择vagrant">为什么选择vagrant</h1>
+
+<h1 id="制作base-box">制作base box</h1>
+
+<p>之前用vagrant封装过开发环境到一半，去了docker阵营，docker更轻量，启动速度更快，就是带界面有点麻烦且不好用。
+用x11-forwarding 可以在浏览器和PC，mac ，甚至手机，都可以操作界面。但是会发现在mac这种高清屏下x11支持有问题，很模糊
+。vnc也不好用。所以又回到了vagrant，毕竟是虚拟机。</p>
+
+<pre><code class="language-sh">    vagrant package --base archlinux
+    vagrant box add Arch package.box
+    vagrant init Arch
+    vagrant up
+
+</code></pre>
+
+<h1 id="上传vagrant-cloud">上传vagrant cloud</h1>
+
+<p>地址:https://app.vagrantup.com
+      欢迎使用:hodge/spacemacs-os</p>
+
+      </article>
+
+      
+        <ul class="pager blog-pager">
           
-            <article class="post-preview">
-              <a href="https://sukeyisme.github.io/post/%E7%BB%9F%E4%B8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B9%8Bvagrant/">
-                <h2 class="post-title">统一开发环境之vagrant</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                Posted on January 24, 2018
-              </p>
-              <div class="post-entry">
-                
-                  为什么选择vagrant 制作base box 之前用vagrant封装过开发环境到一半，去了docker阵营，docker更轻量，启动速度更快，就是
-                  <a href="https://sukeyisme.github.io/post/%E7%BB%9F%E4%B8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B9%8Bvagrant/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <span class="post-meta">
-                  
-                    #<a href="https://sukeyisme.github.iotags/vagrant/">vagrant</a>&nbsp;
-                  
-                </span>
-              
-
-            </article>
+            <li class="previous">
+              <a href="https://sukeyisme.github.io/post/%E7%BB%9F%E4%B8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B9%8Bvbox%E5%AE%89%E8%A3%85archlinux/" data-toggle="tooltip" data-placement="top" title="统一开发环境之virtualbox安装archlinux">&larr; Previous Post</a>
+            </li>
           
-            <article class="post-preview">
-              <a href="https://sukeyisme.github.io/post/%E7%BB%9F%E4%B8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B9%8Bvbox%E5%AE%89%E8%A3%85archlinux/">
-                <h2 class="post-title">统一开发环境之virtualbox安装archlinux</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                Posted on January 8, 2018
-              </p>
-              <div class="post-entry">
-                
-                  缘由 每次换开发机，最痛苦的就是重新配置开发环境，最要命的是每次配环境都没有记录。这次狠下心，决定记录下过程。为以后配置环境做参考。为开发配置
-                  <a href="https://sukeyisme.github.io/post/%E7%BB%9F%E4%B8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B9%8Bvbox%E5%AE%89%E8%A3%85archlinux/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <span class="post-meta">
-                  
-                    #<a href="https://sukeyisme.github.iotags/virtualbox/">virtualbox</a>&nbsp;
-                  
-                    #<a href="https://sukeyisme.github.iotags/archlinux/">archlinux</a>&nbsp;
-                  
-                </span>
-              
-
-            </article>
           
-        </div>
-        
-      </div>
+        </ul>
+      
+
+
+      
+
     </div>
   </div>
+</div>
 
     <footer>
   <div class="container">
@@ -243,7 +246,7 @@
           
           <li>
             
-            <a href="https://sukeyisme.github.io/categories/%E5%B7%A5%E5%85%B7/index.xml" title="RSS">
+            <a href="https://sukeyisme.github.io/index.xml" title="RSS">
             
               <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
