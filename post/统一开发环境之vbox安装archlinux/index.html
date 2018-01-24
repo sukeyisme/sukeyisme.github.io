@@ -185,11 +185,148 @@
 
 <h1 id="为什么选择archlinux">为什么选择archlinux</h1>
 
-<h1 id="坑">坑</h1>
-
-<h2 id="vagrant-tramp-有个-bug-修复了但是没有上传-melpa-所以本地版本是不对的-所有要手动修改-参考-https-github-com-tylerharper-vagrant-tramp-commit-49ca0d2047f3a83ca326012a3076cc126949a4a9-force-rebuild-of-0-tylerharper-vagrant-tramp-49ca0d2">vagrant-tramp 有个 bug 修复了但是没有上传 melpa 所以本地版本是不对的  所有要手动修改 参考<a href="https://github.com/tylerharper/vagrant-tramp/commit/49ca0d2047f3a83ca326012a3076cc126949a4a9" title="Force rebuild of $0 · tylerharper/vagrant-tramp@49ca0d2">Force rebuild of $0 · tylerharper/vagrant-tramp@49ca0d2</a></h2>
-
 <p>硬盘有限，只想少装点默认的东西。滚动更新，方便的包管理工具pacman 等等。</p>
+
+<h1 id="虚拟机创建过程">虚拟机创建过程</h1>
+
+<h2 id="虚拟硬盘文件类型选择vmdk">虚拟硬盘文件类型选择VMDK</h2>
+
+<h1 id="安装arch">安装arch</h1>
+
+<pre><code class="language-sh">    #默认us键盘不需要设置
+
+    #使用默认源 也不需要修改
+    # gdisk /dev/sda
+      Command (? for help): n
+      Partition number (1-128, default 1): ENTER
+      First Sector [...]: ENTER
+      Last Sector [...]: ENTER
+      Current type is 'Linux filesystem'
+      Hex code or GUID (L to show codes, Enter = 8300): ENTER
+      Changed type of partition to 'Linux filesystem'
+    - w (write)
+    - y (confirm write)
+
+    # mkfs.ext4 /dev/sda1
+    # mount /dev/sda1 /mnt
+    # pacstrap /mnt base
+    # genfstab -p /mnt &gt; /mnt/etc/fstab
+    # arch-chroot /mnt
+
+    # echo archlinux &gt; /etc/hostname
+    # echo LANG=en_US.UTF-8 &gt; /etc/locale.conf
+    # echo LC_COLLATE=C &gt;&gt; /etc/locale.conf
+
+    # rm /etc/localtime
+    # ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+
+    # nano /etc/locale.gen
+    - uncomment:
+      en_US.UTF-8 UTF-8
+      zh_CN.UTF-8 UTF-8
+      和其他zh_CN 的选项
+    - ctrl+x (exit)
+    - y (confirm write)
+    # locale-gen
+
+    # nano /etc/pacman.conf
+    - uncomment:
+      [multilib]
+      Include = /etc/pacman.d/mirrorlist
+    - ctrl+x (exit)
+    - y (confirm write)
+
+    # 因为需要需要图形界面所以安装virtualbox-guest-utils 如果不需要的话安装virtualbox-guest
+    # pacman -Sy gptfdisk syslinux xz sudo networkmanager openssh ntp virtualbox-guest-utils
+    - y (confirm)
+
+    #使用lts版本内核
+    #pacman -R linux
+
+    # nano /etc/mkinitcpio.conf
+    - change:
+      HOOKS=&quot;base udev autodetect ...&quot;
+    - to:
+      HOOKS=&quot;systemd autodetect ...&quot;
+    - uncomment:
+      COMPRESSION=&quot;xz&quot;
+    - uncomment and change:
+      COMPRESSION_OPTIONS=()
+    - to:
+      COMPRESSION_OPTIONS=&quot;-9&quot;
+    - ctrl+x (exit)
+    - y (confirm write)
+
+    # mkinitcpio -p linux-lts
+    # passwd
+      Enter new UNIX password: vagrant
+      Retype new UNIX password: vagrant
+      passwd: password updated successfully
+
+    # 吧syslinux.cfg 中的linux 都 加上-lts 因为内核改成lts版本了
+    # nano /boot/syslinux/syslinux.cfg
+    - change:
+      APPEND root=/dev/sda3 rw
+    - to:
+      APPEND root=/dev/sda1 rw
+    - comment following labels:
+      archfallback, hdt, reboot and poweroff
+    - ctrl+x (exit)
+    - y (confirm write)
+
+    # syslinux-install_update -iam
+
+    # nano /etc/sudoers
+    - uncomment:
+      %wheel ALL=(ALL) NOPASSWD: ALL
+    - ctrl+x (exit)
+    - y (confirm write)
+
+    # nano /etc/ntp.conf
+    - change:
+      server [0-3].arch.pool.ntp.org
+    - to:
+      server [0-3].cn.pool.ntp.org
+    # ntpd -gq
+
+    # useradd -m -g users -s /bin/bash vagrant
+    # gpasswd -a vagrant wheel
+    # gpasswd -a vagrant vboxsf
+
+    # passwd vagrant
+      Enter new UNIX password: vagrant
+      Retype new UNIX password: vagrant
+      passwd: password updated successfully
+
+    # systemctl enable sshd
+    # systemctl enable vboxservice
+    # systemctl enable rpcbind
+    # systemctl enable NetworkManager
+
+    # mkdir -p /home/vagrant/.ssh
+    # pacman -S wget
+    # wget -L -O /home/vagrant/.ssh/authorized_keys https://raw.githubusercontent.com/hashicorp/vagrant/master/keys/vagrant.pub
+    # chmod 0600 /home/vagrant/.ssh/authorized_keys
+    # chmod 0700 /home/vagrant/.ssh
+    # chown -R vagrant:users /home/vagrant
+
+    # exit
+    # umount -R /mnt
+    # systemctl reboot
+
+    - cleanup, login as vagrant
+    # sudo su
+    # pacman -Scc --noconfirm
+    # rm -rf /var/log/journal/* /var/log/old/* /var/log/faillog /var/log/lastlog /var/log/pacman.log
+    # rm -f /home/vagrant/.bash_history
+    # rm -f /root/.bash_history
+    # cd /root
+    # dd if=/dev/zero of=zerofillfile bs=1M
+    # rm -f zerofillfile
+    # history -c
+
+    # systemctl poweroff
+</code></pre>
 
       </article>
 
